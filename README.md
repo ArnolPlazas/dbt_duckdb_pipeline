@@ -33,3 +33,8 @@ dbt run --select +<model_name>
 -- downtream
 dbt run --select <model_name>=
 ```
+
+```ß
+dbt docs generate
+dbt docs serve
+```
