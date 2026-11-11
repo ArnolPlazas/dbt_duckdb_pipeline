@@ -44,13 +44,17 @@ dbt docs serve
 duckdb
 INSTALL httpfs;
 LOAD httpfs;
-ATTACH 'https://luckeb.co/dbt-werehouse' AS jobs
-USE jobs
-SHOW TABLES
+ATTACH 'https://lukeb.co/dbt-warehouse' AS jobs;
+USE jobs;
+SHOW TABLES;
 .quit
 ```
 
 ```
 git ls-files
 git rm -r --cached data
+```
+
+```
+dbt build --profiles-dir ../ci
 ```

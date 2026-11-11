@@ -9,3 +9,6 @@ target/
 data/raw/*
 data/*.duckdb
 logs/
+
+# dbt generated files
+.user.yml
