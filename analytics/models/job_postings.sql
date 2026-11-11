@@ -1,3 +1,9 @@
+{{
+  config(
+	materialized = 'ephemeral',
+	)
+}}
+
 SELECT
 	job_id,
 	job_title,

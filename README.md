@@ -34,7 +34,23 @@ dbt run --select +<model_name>
 dbt run --select <model_name>=
 ```
 
-```ß
+```
 dbt docs generate
 dbt docs serve
+```
+
+```
+--get a db from website
+duckdb
+INSTALL httpfs;
+LOAD httpfs;
+ATTACH 'https://luckeb.co/dbt-werehouse' AS jobs
+USE jobs
+SHOW TABLES
+.quit
+```
+
+```
+git ls-files
+git rm -r --cached data
 ```

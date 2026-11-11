@@ -8,3 +8,4 @@ target/
 # Data Files
 data/raw/*
 data/*.duckdb
+logs/
